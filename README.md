@@ -17,7 +17,7 @@ Optimiza tu flujo de trabajo en almacén permitiendo asignar códigos de barras 
 
 1. Clona este repositorio en tu carpeta de `custom_addons`:
    ```bash
-   git clone https://github.com/tu-usuario/BarCodeCustom.git
+   git clone https://github.com/Yis1000/BarCodeCustom.git
    ```
 2. Reinicia el servicio de Odoo.
 3. Activa el modo desarrollador.
