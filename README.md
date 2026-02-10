@@ -32,9 +32,6 @@ Optimiza tu flujo de trabajo en almacén permitiendo asignar códigos de barras 
 4. **Escanea** el producto con tu pistola de códigos o escribe el número manualmente.
 5. ¡Listo! El código ya está asignado a ese producto permanentemente.
 
-## 📸 Capturas de Pantalla
-
-*(Aquí puedes añadir capturas de pantalla de tu módulo en acción. Guarda las imágenes en la carpeta `static/description/`)*
 
 ## 📋 Requisitos
 
