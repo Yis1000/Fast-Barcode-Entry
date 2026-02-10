@@ -30,7 +30,7 @@ Cómo Funciona
     'data': [
         'views/stock_picking_views.xml',
     ],
-    'images': ['static/description/banner.png'],
+    'images': ['static/description/banner.png', 'static/description/demostracion1.png'],
     'installable': True,
     'application': False,
     'auto_install': False,
