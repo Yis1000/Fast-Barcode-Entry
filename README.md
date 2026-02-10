@@ -53,4 +53,4 @@ Las contribuciones son bienvenidas. Por favor, abre un "issue" primero para disc
 Distribuido bajo la licencia LGPL-3. Ver `LICENSE` para más información.
 
 ---
-**Desarrollado por OpsHub**
+**Desarrollado por Yisus**
