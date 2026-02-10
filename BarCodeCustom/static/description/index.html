@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode Entry in Reception - Odoo 19</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .odoo-purple { color: #714B67; }
+        .bg-odoo-purple { background-color: #714B67; }
+        .odoo-teal { color: #017E84; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <i class="fa-solid fa-barcode text-3xl odoo-purple mr-3"></i>
+                    <span class="font-bold text-xl tracking-tight text-gray-900">Barcode Entry <span class="text-gray-500 font-normal">for Odoo 19</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <span class="px-3 py-1 rounded-full bg-purple-100 text-purple-800 text-sm font-semibold">v19.0</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+                <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                    <div class="sm:text-center lg:text-left">
+                        <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                            <span class="block xl:inline">Gestión de stock</span>
+                            <span class="block odoo-teal xl:inline">más rápida e inteligente</span>
+                        </h1>
+                        <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                            Olvídate de navegar entre menús. Asigna códigos de barras a tus productos directamente desde el albarán de recepción. Escanea, guarda y sigue trabajando.
+                        </p>
+                        <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                            <div class="rounded-md shadow">
+                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-odoo-purple hover:bg-purple-800 md:py-4 md:text-lg md:px-10 transition duration-300">
+                                    <i class="fa-solid fa-download mr-2"></i> Instalar Módulo
+                                </a>
+                            </div>
+                            <div class="mt-3 sm:mt-0 sm:ml-3">
+                                <a href="#features" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-odoo-purple bg-purple-100 hover:bg-purple-200 md:py-4 md:text-lg md:px-10 transition duration-300">
+                                    Ver Características
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-gray-100 flex items-center justify-center">
+            <!-- Placeholder for Screenshot -->
+            <div class="text-center p-10">
+                <i class="fa-solid fa-scanner-gun text-9xl text-gray-300"></i>
+                <p class="mt-4 text-gray-400">Captura de pantalla del módulo aquí</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-base text-odoo-teal font-semibold tracking-wide uppercase">Características</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Diseñado para la eficiencia
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Optimizamos cada segundo de tu proceso de entrada de mercancía.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
+                    <!-- Feature 1 -->
+                    <div class="relative">
+                        <dt>
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-odoo-purple text-white">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Edición Directa</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">
+                            Campo editable integrado directamente en la línea de operaciones. Sin pop-ups ni ventanas extra.
+                        </dd>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="relative">
+                        <dt>
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-odoo-purple text-white">
+                                <i class="fa-solid fa-sync"></i>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Sincronización Real</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">
+                            Lo que escribes en el albarán se guarda instantáneamente en la ficha maestra del producto.
+                        </dd>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="relative">
+                        <dt>
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-odoo-purple text-white">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Alta Velocidad</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">
+                            Compatible con pistolas lectoras en modo "retorno de carro" para escanear y pasar al siguiente.
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="py-16 bg-gray-50 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-10">
+                <h2 class="text-3xl font-extrabold text-gray-900">Cómo funciona</h2>
+            </div>
+            <div class="relative">
+                <div class="relative md:bg-white md:p-6 rounded-xl md:shadow-lg">
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="flex items-center justify-center w-12 h-12 mx-auto bg-purple-100 text-odoo-purple rounded-full text-xl font-bold mb-4">1</div>
+                            <h3 class="text-lg font-medium text-gray-900">Abre Recepción</h3>
+                            <p class="mt-2 text-sm text-gray-500">Ve a tus transferencias de entrada en Inventario.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="flex items-center justify-center w-12 h-12 mx-auto bg-purple-100 text-odoo-purple rounded-full text-xl font-bold mb-4">2</div>
+                            <h3 class="text-lg font-medium text-gray-900">Localiza Columna</h3>
+                            <p class="mt-2 text-sm text-gray-500">Identifica la nueva columna "Código de Barras".</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="flex items-center justify-center w-12 h-12 mx-auto bg-purple-100 text-odoo-purple rounded-full text-xl font-bold mb-4">3</div>
+                            <h3 class="text-lg font-medium text-gray-900">Escanea</h3>
+                            <p class="mt-2 text-sm text-gray-500">Usa tu lector o teclea el código EAN/UPC.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="flex items-center justify-center w-12 h-12 mx-auto bg-green-100 text-green-600 rounded-full text-xl font-bold mb-4"><i class="fa-solid fa-check"></i></div>
+                            <h3 class="text-lg font-medium text-gray-900">¡Guardado!</h3>
+                            <p class="mt-2 text-sm text-gray-500">El producto se actualiza automáticamente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 mt-12">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+            <div class="flex justify-center space-x-6 md:order-2">
+                <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">GitHub</span>
+                    <i class="fa-brands fa-github text-xl"></i>
+                </a>
+                <a href="https://github.com/Yis1000" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Website</span>
+                    <i class="fa-solid fa-globe text-xl"></i>
+                </a>
+            </div>
+            <div class="mt-8 md:mt-0 md:order-1">
+                <p class="text-center text-base text-gray-400">
+                    &copy; 2026 Yisus. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
